@@ -1,0 +1,30 @@
+image: gradle:8.2.1-jdk8
+definitions:
+  steps:
+    - step: &build_test_automation
+        name: build_test_automation
+        runs-on:
+          - self.hosted
+          - windows
+        script:
+          - echo "This step will run on a self hosted windows infrastructure.";
+          - gradle build
+          - echo "Deploy Artifiact location - "
+          - echo $DEPLOY_ARTIFACT_LOCATION
+          - gradle myCopy -PoutputDir=$DEPLOY_ARTIFACT_LOCATION
+    - step: &run_test_automation
+        name: run_test_automation
+        runs-on:
+          - self.hosted
+          - windows
+        script:
+          - echo "Do something here to execute the Test Automation.";
+          - echo "Do something here to execute the Test Automation.";
+pipelines:
+  default:
+    import: shared-pipeline-repo:master:share-pipeline-security
+  branches:
+    master-org:
+      - parallel:
+          steps:
+            - step: *build_test_automation

@@ -1,0 +1,129 @@
+15:31:37.013 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+15:31:37.015 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null
+15:32:48.715 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+15:32:48.715 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null
+15:33:27.113 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+15:33:27.113 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null
+15:33:47.492 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+15:33:47.492 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null
+15:34:03.250 [ApplicationImpl pooled thread 37] INFO  c.b.l.BrowserStackRunExtension - testng
+15:34:03.250 [ApplicationImpl pooled thread 37] INFO  com.browserstack.utils.Helpers - null
+15:34:03.252 [ApplicationImpl pooled thread 37] INFO  com.browserstack.utils.Helpers - C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+15:34:03.252 [ApplicationImpl pooled thread 37] INFO  c.b.l.BrowserStackRunExtension - Agent path: C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+15:34:03.252 [ApplicationImpl pooled thread 37] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.4
+15:36:31.140 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+15:36:31.140 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null
+15:37:36.253 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+15:37:36.253 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null
+15:37:37.836 [ApplicationImpl pooled thread 47] INFO  c.b.l.BrowserStackRunExtension - testng
+15:37:37.836 [ApplicationImpl pooled thread 47] INFO  com.browserstack.utils.Helpers - null
+15:37:37.838 [ApplicationImpl pooled thread 47] INFO  com.browserstack.utils.Helpers - C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+15:37:37.838 [ApplicationImpl pooled thread 47] INFO  c.b.l.BrowserStackRunExtension - Agent path: C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+15:37:37.838 [ApplicationImpl pooled thread 47] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.4
+15:45:25.046 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+15:45:25.046 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null
+15:45:42.125 [ApplicationImpl pooled thread 62] INFO  c.b.l.BrowserStackRunExtension - testng
+15:45:42.125 [ApplicationImpl pooled thread 62] INFO  com.browserstack.utils.Helpers - null
+15:45:42.132 [ApplicationImpl pooled thread 62] INFO  com.browserstack.utils.Helpers - C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+15:45:42.132 [ApplicationImpl pooled thread 62] INFO  c.b.l.BrowserStackRunExtension - Agent path: C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+15:45:42.132 [ApplicationImpl pooled thread 62] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.4
+15:52:04.277 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+15:52:04.277 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null
+15:52:25.901 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+15:52:25.901 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null
+15:52:26.327 [ApplicationImpl pooled thread 72] INFO  c.b.l.BrowserStackRunExtension - testng
+15:52:26.327 [ApplicationImpl pooled thread 72] INFO  com.browserstack.utils.Helpers - null
+15:52:26.329 [ApplicationImpl pooled thread 72] INFO  com.browserstack.utils.Helpers - C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+15:52:26.329 [ApplicationImpl pooled thread 72] INFO  c.b.l.BrowserStackRunExtension - Agent path: C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+15:52:26.329 [ApplicationImpl pooled thread 72] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.4
+22:47:41.092 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+22:47:41.092 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null
+22:48:19.377 [ApplicationImpl pooled thread 1082] INFO  c.b.l.BrowserStackRunExtension - cucumber java
+22:48:19.377 [ApplicationImpl pooled thread 1082] INFO  com.browserstack.utils.Helpers - null
+22:48:19.378 [ApplicationImpl pooled thread 1082] INFO  com.browserstack.utils.Helpers - C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+22:48:19.378 [ApplicationImpl pooled thread 1082] INFO  c.b.l.BrowserStackRunExtension - Agent path: C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+22:48:19.379 [ApplicationImpl pooled thread 1082] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.4
+22:56:29.213 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+22:56:29.213 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null
+22:56:30.869 [ApplicationImpl pooled thread 1089] INFO  c.b.l.BrowserStackRunExtension - cucumber java
+22:56:30.869 [ApplicationImpl pooled thread 1089] INFO  com.browserstack.utils.Helpers - null
+22:56:30.872 [ApplicationImpl pooled thread 1089] INFO  com.browserstack.utils.Helpers - C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+22:56:30.872 [ApplicationImpl pooled thread 1089] INFO  c.b.l.BrowserStackRunExtension - Agent path: C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+22:56:30.872 [ApplicationImpl pooled thread 1089] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.4
+23:03:03.284 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+23:03:03.284 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null
+23:03:16.135 [ApplicationImpl pooled thread 1094] INFO  c.b.l.BrowserStackRunExtension - cucumber java
+23:03:16.136 [ApplicationImpl pooled thread 1094] INFO  com.browserstack.utils.Helpers - null
+23:03:16.141 [ApplicationImpl pooled thread 1094] INFO  com.browserstack.utils.Helpers - C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+23:03:16.141 [ApplicationImpl pooled thread 1094] INFO  c.b.l.BrowserStackRunExtension - Agent path: C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+23:03:16.141 [ApplicationImpl pooled thread 1094] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.4
+23:06:52.327 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+23:06:52.327 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null
+23:06:53.765 [ApplicationImpl pooled thread 1105] INFO  c.b.l.BrowserStackRunExtension - cucumber java
+23:06:53.765 [ApplicationImpl pooled thread 1105] INFO  com.browserstack.utils.Helpers - null
+23:06:53.771 [ApplicationImpl pooled thread 1105] INFO  com.browserstack.utils.Helpers - C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+23:06:53.772 [ApplicationImpl pooled thread 1105] INFO  c.b.l.BrowserStackRunExtension - Agent path: C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+23:06:53.772 [ApplicationImpl pooled thread 1105] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.4
+23:25:04.542 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+23:25:04.542 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null
+23:25:05.909 [ApplicationImpl pooled thread 1115] INFO  c.b.l.BrowserStackRunExtension - cucumber java
+23:25:05.910 [ApplicationImpl pooled thread 1115] INFO  com.browserstack.utils.Helpers - null
+23:25:05.911 [ApplicationImpl pooled thread 1115] INFO  com.browserstack.utils.Helpers - C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+23:25:05.911 [ApplicationImpl pooled thread 1115] INFO  c.b.l.BrowserStackRunExtension - Agent path: C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+23:25:05.911 [ApplicationImpl pooled thread 1115] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.4
+23:31:43.861 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+23:31:43.861 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null
+23:31:57.469 [ApplicationImpl pooled thread 1129] INFO  c.b.l.BrowserStackRunExtension - cucumber java
+23:31:57.469 [ApplicationImpl pooled thread 1129] INFO  com.browserstack.utils.Helpers - null
+23:31:57.472 [ApplicationImpl pooled thread 1129] INFO  com.browserstack.utils.Helpers - C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+23:31:57.472 [ApplicationImpl pooled thread 1129] INFO  c.b.l.BrowserStackRunExtension - Agent path: C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+23:31:57.472 [ApplicationImpl pooled thread 1129] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.4
+23:39:43.101 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+23:39:43.102 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null
+23:39:44.571 [ApplicationImpl pooled thread 1146] INFO  c.b.l.BrowserStackRunExtension - cucumber java
+23:39:44.571 [ApplicationImpl pooled thread 1146] INFO  com.browserstack.utils.Helpers - null
+23:39:44.576 [ApplicationImpl pooled thread 1146] INFO  com.browserstack.utils.Helpers - C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+23:39:44.576 [ApplicationImpl pooled thread 1146] INFO  c.b.l.BrowserStackRunExtension - Agent path: C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+23:39:44.576 [ApplicationImpl pooled thread 1146] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.4
+23:42:54.205 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+23:42:54.205 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null
+23:43:06.509 [ApplicationImpl pooled thread 1152] INFO  c.b.l.BrowserStackRunExtension - cucumber java
+23:43:06.509 [ApplicationImpl pooled thread 1152] INFO  com.browserstack.utils.Helpers - null
+23:43:06.515 [ApplicationImpl pooled thread 1152] INFO  com.browserstack.utils.Helpers - C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+23:43:06.515 [ApplicationImpl pooled thread 1152] INFO  c.b.l.BrowserStackRunExtension - Agent path: C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+23:43:06.515 [ApplicationImpl pooled thread 1152] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.4
+23:49:14.672 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+23:49:14.672 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null
+23:49:16.003 [ApplicationImpl pooled thread 1159] INFO  c.b.l.BrowserStackRunExtension - cucumber java
+23:49:16.003 [ApplicationImpl pooled thread 1159] INFO  com.browserstack.utils.Helpers - null
+23:49:16.009 [ApplicationImpl pooled thread 1159] INFO  com.browserstack.utils.Helpers - C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+23:49:16.010 [ApplicationImpl pooled thread 1159] INFO  c.b.l.BrowserStackRunExtension - Agent path: C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+23:49:16.010 [ApplicationImpl pooled thread 1159] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.4
+23:58:22.027 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+23:58:22.027 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null
+23:58:23.362 [ApplicationImpl pooled thread 1171] INFO  c.b.l.BrowserStackRunExtension - cucumber java
+23:58:23.362 [ApplicationImpl pooled thread 1171] INFO  com.browserstack.utils.Helpers - null
+23:58:23.366 [ApplicationImpl pooled thread 1171] INFO  com.browserstack.utils.Helpers - C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+23:58:23.366 [ApplicationImpl pooled thread 1171] INFO  c.b.l.BrowserStackRunExtension - Agent path: C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+23:58:23.366 [ApplicationImpl pooled thread 1171] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.4
+00:04:51.715 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+00:04:51.715 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null
+00:04:53.043 [ApplicationImpl pooled thread 1184] INFO  c.b.l.BrowserStackRunExtension - cucumber java
+00:04:53.043 [ApplicationImpl pooled thread 1184] INFO  com.browserstack.utils.Helpers - null
+00:04:53.047 [ApplicationImpl pooled thread 1184] INFO  com.browserstack.utils.Helpers - C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+00:04:53.047 [ApplicationImpl pooled thread 1184] INFO  c.b.l.BrowserStackRunExtension - Agent path: C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+00:04:53.047 [ApplicationImpl pooled thread 1184] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.4
+00:10:59.462 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+00:10:59.462 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null
+00:11:00.780 [ApplicationImpl pooled thread 1191] INFO  c.b.l.BrowserStackRunExtension - cucumber java
+00:11:00.780 [ApplicationImpl pooled thread 1191] INFO  com.browserstack.utils.Helpers - null
+00:11:00.784 [ApplicationImpl pooled thread 1191] INFO  com.browserstack.utils.Helpers - C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+00:11:00.784 [ApplicationImpl pooled thread 1191] INFO  c.b.l.BrowserStackRunExtension - Agent path: C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+00:11:00.784 [ApplicationImpl pooled thread 1191] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.4
+09:12:26.233 [AWT-EventQueue-0] INFO  c.b.l.BrowserStackRunExtension - gradle
+09:12:26.233 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null
+09:13:06.266 [ApplicationImpl pooled thread 1447] INFO  c.b.l.BrowserStackRunExtension - cucumber java
+09:13:06.266 [ApplicationImpl pooled thread 1447] INFO  com.browserstack.utils.Helpers - null
+09:13:06.270 [ApplicationImpl pooled thread 1447] INFO  com.browserstack.utils.Helpers - C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+09:13:06.270 [ApplicationImpl pooled thread 1447] INFO  c.b.l.BrowserStackRunExtension - Agent path: C:/Users/ShubhamT.INTERRAIT/.gradle/caches/modules-2/files-2.1/com.browserstack/browserstack-java-sdk/1.13.1/446a94eaa7041bae8f6b95da8574f18775a7f5ba/browserstack-java-sdk-1.13.1.jar
+09:13:06.270 [ApplicationImpl pooled thread 1447] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.4

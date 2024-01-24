@@ -1,0 +1,988 @@
+15:34:15.184 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+15:34:15.188 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+15:34:15.443 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+15:34:15.560 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+15:34:18.552 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket51315 @w@C:\Users\ShubhamT.INTERRAIT\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\ShubhamT.INTERRAIT\AppData\Local\Temp\idea_testng.tmp
+15:34:18.621 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber - testng
+15:34:25.453 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber - testng. We currently support frameworks testng, cucumber-testng & serenity
+15:34:26.508 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+15:34:44.643 [Thread-4] INFO  com.browserstack.percy.Percy - Percy started successfully
+15:34:44.643 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+15:34:52.353 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+15:34:54.350 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/e78515e2493b7072e85a938f6e4527384430975e
+15:34:54.351 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:35:03.270 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+15:37:39.084 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+15:37:39.089 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+15:37:39.333 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+15:37:39.402 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+15:37:42.258 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket51463 @w@C:\Users\ShubhamT.INTERRAIT\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\ShubhamT.INTERRAIT\AppData\Local\Temp\idea_testng.tmp
+15:37:42.321 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber - testng
+15:37:48.199 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber - testng. We currently support frameworks testng, cucumber-testng & serenity
+15:37:48.783 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+15:38:03.850 [Thread-4] INFO  com.browserstack.percy.Percy - Percy started successfully
+15:38:03.851 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+15:38:10.326 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+15:42:07.183 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/67432596647d9ca004c396f0a2c5ec1ecba48434
+15:42:07.183 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:42:27.582 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+15:45:44.195 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+15:45:44.200 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+15:45:44.442 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+15:45:44.530 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+15:45:48.198 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket53358 @w@C:\Users\ShubhamT.INTERRAIT\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\ShubhamT.INTERRAIT\AppData\Local\Temp\idea_testng.tmp
+15:45:48.322 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber - testng
+15:45:52.466 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber - testng. We currently support frameworks testng, cucumber-testng & serenity
+15:45:53.094 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+15:46:10.305 [Thread-4] INFO  com.browserstack.percy.Percy - Percy started successfully
+15:46:10.306 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+15:46:16.539 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+15:47:58.272 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/c7fb37b7ac1c7fa6007fd8dfec1a3e759a8b70e9
+15:47:58.272 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:48:10.605 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+15:50:28.726 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+15:50:28.728 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+15:50:28.918 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\browserstack.yml
+15:50:28.918 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+15:50:28.919 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+15:52:10.180 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+15:52:10.184 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+15:52:10.418 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\browserstack.yml
+15:52:10.418 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+15:52:10.418 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+15:52:27.392 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+15:52:27.398 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+15:52:27.633 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+15:52:27.708 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+15:52:30.444 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket53714 @w@C:\Users\ShubhamT.INTERRAIT\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\ShubhamT.INTERRAIT\AppData\Local\Temp\idea_testng.tmp
+15:52:30.509 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber - testng
+15:52:33.984 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber - testng. We currently support frameworks testng, cucumber-testng & serenity
+15:52:34.660 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+15:52:47.768 [Thread-4] INFO  com.browserstack.percy.Percy - Percy started successfully
+15:52:47.769 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+15:52:53.856 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+15:54:29.074 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/3a580a383133e87deb7a7a54d7931dac4ecab12f
+15:54:29.074 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:54:40.424 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+16:58:57.390 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+16:58:57.393 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+16:58:57.567 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+16:58:57.641 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+16:58:59.956 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 1'
+16:58:59.998 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber - testng
+16:59:06.699 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber - testng. We currently support frameworks testng, cucumber-testng & serenity
+16:59:08.439 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+16:59:24.939 [Thread-4] INFO  com.browserstack.percy.Percy - Percy started successfully
+16:59:24.940 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+16:59:32.042 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+17:04:56.859 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/c2cf206921eed198ff9b4cf0efb6c0a7b5445e7a
+17:04:56.860 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+17:05:05.159 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+17:06:38.559 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+17:06:38.562 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+17:06:38.821 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+17:06:38.899 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:06:41.856 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 2'
+17:06:41.921 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber - testng
+17:06:47.746 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber - testng. We currently support frameworks testng, cucumber-testng & serenity
+17:06:48.310 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+17:07:02.614 [Thread-4] INFO  com.browserstack.percy.Percy - Percy started successfully
+17:07:02.615 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+17:07:08.433 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+17:07:25.181 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+17:08:34.872 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+17:08:34.874 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+17:08:35.042 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+17:08:35.105 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:08:37.308 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 3'
+17:08:37.350 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber - testng
+17:08:42.784 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber - testng. We currently support frameworks testng, cucumber-testng & serenity
+17:08:43.291 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+17:08:56.543 [Thread-4] INFO  com.browserstack.percy.Percy - Percy started successfully
+17:08:56.543 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+17:09:01.619 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+17:15:03.379 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/bfeb14c9fdec25dda0a2f51d265a37eb79b14a5c
+17:15:03.379 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+17:15:11.781 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+17:30:02.272 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+17:30:02.274 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+17:30:02.454 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+17:30:02.524 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:30:05.154 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 4'
+17:30:05.201 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber - testng
+17:30:12.022 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber - testng. We currently support frameworks testng, cucumber-testng & serenity
+17:30:12.933 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+17:30:27.318 [Thread-4] INFO  com.browserstack.percy.Percy - Percy started successfully
+17:30:27.318 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+17:30:33.073 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+17:35:10.276 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/4899707df8f4f76180574de9cac590e52cdaafe4
+17:35:10.276 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+17:35:19.633 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+17:37:08.542 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+17:37:08.545 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+17:37:08.738 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+17:37:08.812 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:37:11.441 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 5'
+17:37:11.496 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber - testng
+17:37:17.301 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber - testng. We currently support frameworks testng, cucumber-testng & serenity
+17:37:17.993 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+17:37:33.272 [Thread-4] INFO  com.browserstack.percy.Percy - Percy started successfully
+17:37:33.273 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+17:37:39.492 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+17:43:17.340 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/b6a4a0afe52284ae761e8eeb129819b29b00dafc
+17:43:17.340 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+17:43:28.073 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+17:54:28.947 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+17:54:28.949 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+17:54:29.161 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+17:54:29.233 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:54:31.921 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 6'
+17:54:31.967 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber - testng
+17:54:39.473 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber - testng. We currently support frameworks testng, cucumber-testng & serenity
+17:54:40.175 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+17:54:54.636 [Thread-4] INFO  com.browserstack.percy.Percy - Percy started successfully
+17:54:54.637 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+17:55:01.274 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+17:55:18.016 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+17:55:27.340 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+17:55:27.343 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+17:55:27.548 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+17:55:27.614 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:55:30.014 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 7'
+17:55:30.062 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber - testng
+17:55:35.043 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber - testng. We currently support frameworks testng, cucumber-testng & serenity
+17:55:35.546 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+17:55:50.474 [Thread-4] INFO  com.browserstack.percy.Percy - Percy started successfully
+17:55:50.475 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+17:55:55.991 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+17:56:12.039 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+17:56:43.647 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+17:56:43.650 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+17:56:43.848 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+17:56:43.919 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:56:46.338 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 8'
+17:56:46.380 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber - testng
+17:56:51.854 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber - testng. We currently support frameworks testng, cucumber-testng & serenity
+17:56:52.331 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+17:57:05.201 [Thread-4] INFO  com.browserstack.percy.Percy - Percy started successfully
+17:57:05.201 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+17:57:10.542 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+17:57:24.239 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+08:17:12.516 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+08:17:12.519 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+08:17:12.796 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+08:17:12.898 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+08:17:15.318 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 1'
+08:17:15.367 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber - testng
+08:17:22.419 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber - testng. We currently support frameworks testng, cucumber-testng & serenity
+08:17:23.469 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+08:17:47.740 [Thread-4] INFO  com.browserstack.percy.Percy - Percy started successfully
+08:17:47.740 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+08:17:54.673 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+08:18:13.015 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+08:18:42.164 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+08:18:42.168 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+08:18:42.412 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+08:18:42.508 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+08:18:45.011 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 2'
+08:18:45.072 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber - testng
+08:18:51.094 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber - testng. We currently support frameworks testng, cucumber-testng & serenity
+08:18:52.453 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+08:19:13.467 [Thread-4] INFO  com.browserstack.percy.Percy - Percy started successfully
+08:19:13.469 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+08:19:20.992 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+08:19:38.091 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+10:08:35.094 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+10:08:35.099 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+10:08:35.443 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+10:08:35.576 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+10:08:38.483 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 3'
+10:08:38.542 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber - testng
+10:08:45.708 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber - testng. We currently support frameworks testng, cucumber-testng & serenity
+10:08:46.732 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+10:09:01.127 [Thread-4] INFO  com.browserstack.percy.Percy - Percy started successfully
+10:09:01.127 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+10:09:07.348 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+10:09:20.726 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+15:05:56.730 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+15:05:56.733 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+15:05:56.901 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+15:05:56.976 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+15:05:59.414 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 4'
+15:05:59.470 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber - testng
+15:06:05.339 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber - testng. We currently support frameworks testng, cucumber-testng & serenity
+15:06:06.672 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+15:06:21.153 [Thread-4] INFO  com.browserstack.percy.Percy - Percy started successfully
+15:06:21.154 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+15:06:27.684 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+15:06:42.688 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+15:07:04.238 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+15:07:04.240 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+15:07:04.416 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+15:07:04.492 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+15:07:06.972 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 5'
+15:07:07.021 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber - testng
+15:07:12.533 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber - testng. We currently support frameworks testng, cucumber-testng & serenity
+15:07:13.238 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+15:07:27.568 [Thread-4] INFO  com.browserstack.percy.Percy - Percy started successfully
+15:07:27.569 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+15:07:32.939 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+15:14:17.773 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/05d4b4af4ba31b41aafb0c29c4c2e6d57319d559
+15:14:17.773 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:14:26.377 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+15:36:02.490 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+15:36:02.492 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+15:36:02.656 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+15:36:02.726 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+15:36:05.134 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 7'
+15:36:05.174 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber - testng
+15:36:11.588 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber - testng. We currently support frameworks testng, cucumber-testng & serenity
+15:36:12.497 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+15:36:26.526 [Thread-4] INFO  com.browserstack.percy.Percy - Percy started successfully
+15:36:26.527 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+15:36:32.582 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+15:41:01.512 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+15:41:01.514 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+15:41:01.695 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+15:41:01.768 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+15:41:04.168 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 8'
+15:41:04.229 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber - testng
+15:41:10.121 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber - testng. We currently support frameworks testng, cucumber-testng & serenity
+15:41:10.693 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+15:41:20.014 [Thread-4] INFO  com.browserstack.percy.Percy - Percy started successfully
+15:41:20.014 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+15:41:25.603 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+15:45:52.571 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/2ed5ea8fe1da06e7f57adcaf447f2ed67673586a
+15:45:52.571 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:46:01.272 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+18:41:18.876 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+18:41:18.878 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+18:41:19.059 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+18:41:19.132 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+18:41:21.952 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 9'
+18:41:21.999 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+18:41:31.744 [main] INFO  c.b.config.BrowserStackConfig - INFO
+18:41:31.744 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+18:41:51.309 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+18:41:51.310 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+18:41:56.887 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+18:42:08.956 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ to view build report, insights, and many more debugging information all at one place!
+
+18:42:17.223 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+18:43:17.262 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+18:43:17.264 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+18:43:17.425 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+18:43:17.482 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+18:43:19.560 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 10'
+18:43:19.600 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+18:43:27.999 [main] INFO  c.b.config.BrowserStackConfig - INFO
+18:43:28.000 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+18:43:41.801 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+18:43:41.801 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+18:43:46.730 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+18:45:34.854 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ to view build report, insights, and many more debugging information all at one place!
+
+18:45:35.427 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/c4f4d3eca77a4a78282431f855202b6e07962fb7
+18:45:35.427 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+18:45:48.409 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+18:46:38.822 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+18:46:38.824 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+18:46:38.982 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+18:46:39.050 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+18:46:41.761 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 11'
+18:46:41.808 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+18:46:51.277 [main] INFO  c.b.config.BrowserStackConfig - INFO
+18:46:51.277 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+18:47:06.493 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+18:47:06.494 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+18:47:12.047 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+18:50:15.706 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ to view build report, insights, and many more debugging information all at one place!
+
+18:50:17.967 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/e15d3a49d638ac86da161b526ef2ece9c7134922
+18:50:17.967 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+18:50:25.907 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+21:39:23.680 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+21:39:23.683 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+21:39:23.969 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+21:39:24.083 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+21:39:30.162 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 12'
+21:39:30.282 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+21:39:40.271 [main] INFO  c.b.config.BrowserStackConfig - INFO
+21:39:40.272 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+21:40:02.922 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+21:40:02.923 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+21:40:10.391 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+21:43:41.220 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ to view build report, insights, and many more debugging information all at one place!
+
+21:43:42.146 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/81600883ac4009a3c5b71e58b8d1d7aac7c09ba0
+21:43:42.148 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+21:43:54.324 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+21:46:22.597 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+21:46:22.603 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+21:46:23.207 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+21:46:23.421 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+21:46:30.953 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 13'
+21:46:31.090 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+21:46:42.766 [main] INFO  c.b.config.BrowserStackConfig - INFO
+21:46:42.767 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+21:47:06.536 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+21:47:06.537 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+21:47:13.638 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+21:50:39.015 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ to view build report, insights, and many more debugging information all at one place!
+
+21:50:40.711 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/3bc4a8970a85140286a183202c345492a409fb60
+21:50:40.712 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+21:50:52.308 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+21:54:14.931 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+21:54:14.935 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+21:54:15.208 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+21:54:15.299 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+21:54:20.148 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 14'
+21:54:20.258 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+21:54:29.476 [main] INFO  c.b.config.BrowserStackConfig - INFO
+21:54:29.476 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+21:54:48.696 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+21:54:48.697 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+21:54:55.513 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+21:58:18.567 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ to view build report, insights, and many more debugging information all at one place!
+
+21:58:19.543 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/38f0b50e24e75077aa9dcc9557b83e4e47d45682
+21:58:19.543 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+21:58:30.683 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+08:14:55.938 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+08:14:55.941 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+08:14:56.191 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+08:14:56.305 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+08:14:59.002 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 1'
+08:14:59.048 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+08:15:09.408 [main] INFO  c.b.config.BrowserStackConfig - INFO
+08:15:09.408 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+08:15:27.228 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+08:15:27.229 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+08:15:33.644 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+08:16:10.472 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+08:16:10.475 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+08:16:10.674 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+08:16:10.743 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+08:16:13.218 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 2'
+08:16:13.266 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+08:16:21.302 [main] INFO  c.b.config.BrowserStackConfig - INFO
+08:16:21.303 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+08:16:30.465 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+08:16:30.466 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+08:16:36.305 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+08:19:51.103 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ to view build report, insights, and many more debugging information all at one place!
+
+08:19:51.663 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/d127b53f4e03973b29dabc74192cc7ed9e21ceec
+08:19:51.663 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+08:20:00.469 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+08:40:17.387 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+08:40:17.390 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+08:40:17.592 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+08:40:17.666 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+08:40:20.163 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 3'
+08:40:20.214 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+08:40:30.009 [main] INFO  c.b.config.BrowserStackConfig - INFO
+08:40:30.009 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+08:40:45.964 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+08:40:45.965 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+08:40:53.040 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+08:44:13.835 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ to view build report, insights, and many more debugging information all at one place!
+
+08:44:14.373 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/cccf5da65bb8e264ca013a1f9acb75d2650347ed
+08:44:14.373 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+08:44:23.472 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+09:05:37.285 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+09:05:37.288 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+09:05:37.476 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+09:05:37.556 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+09:05:40.087 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 4'
+09:05:40.131 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+09:05:49.895 [main] INFO  c.b.config.BrowserStackConfig - INFO
+09:05:49.895 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+09:06:03.924 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+09:06:03.925 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+09:06:10.475 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+09:09:24.915 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ to view build report, insights, and many more debugging information all at one place!
+
+09:09:34.115 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+09:11:40.448 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+09:11:40.455 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+09:11:40.661 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+09:11:40.732 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+09:11:43.345 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 5'
+09:11:43.406 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+09:11:53.392 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+09:12:08.307 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+09:12:08.308 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+09:12:14.673 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+09:15:45.962 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/5uuvhhl2jm55edvpsmadbdudq0nnhwfheja7csr8 to view build report, insights, and many more debugging information all at one place!
+
+09:15:46.489 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/8633c7e5d978963c0a8b2d59cb619913dfa8e8f9
+09:15:46.489 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+09:15:55.810 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+12:22:31.578 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+12:22:31.580 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+12:22:31.760 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+12:22:31.857 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:22:34.362 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 1'
+12:22:34.405 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+12:22:48.918 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+12:23:07.883 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+12:23:07.883 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+12:23:15.237 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+12:26:29.220 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ci5joxmywlnlsftrhprl43565zg9ah8nlugqnxc5 to view build report, insights, and many more debugging information all at one place!
+
+12:26:39.096 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+12:28:57.613 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+12:28:57.615 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+12:28:57.799 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+12:28:57.870 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:29:00.454 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 2'
+12:29:00.502 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+12:29:13.314 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+12:29:27.509 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+12:29:27.510 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+12:29:33.805 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+12:32:46.765 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/wfg1lo4rotmwx9tqvgp9gbt3m2thxdqhyka5lje5 to view build report, insights, and many more debugging information all at one place!
+
+12:32:56.559 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+12:36:18.883 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+12:36:18.886 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+12:36:19.058 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+12:36:19.127 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:36:21.422 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 3'
+12:36:21.469 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+12:36:34.078 [main] INFO  c.b.config.BrowserStackConfig - INFO
+12:36:34.078 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+12:36:49.037 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+12:36:49.038 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+12:36:55.437 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+12:40:33.976 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ to view build report, insights, and many more debugging information all at one place!
+
+12:40:34.526 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/df41ba1efedaa55ec8c96a23cdb89a1d6747b7a7
+12:40:34.526 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:40:42.931 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+13:19:28.816 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+13:19:28.819 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+13:19:29.006 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+13:19:29.075 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:19:31.538 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 4'
+13:19:31.580 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+13:19:50.740 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:19:50.740 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+13:20:05.495 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+13:20:05.496 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+13:20:17.867 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+13:24:21.590 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ to view build report, insights, and many more debugging information all at one place!
+
+13:24:23.109 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/7716202abed0fa428602153f751b86d40972081a
+13:24:23.109 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:24:31.242 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+17:51:09.170 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+17:51:09.173 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+17:51:09.362 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+17:51:09.430 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:51:11.817 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 1'
+17:51:11.857 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+17:51:26.208 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+17:51:43.522 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+17:51:43.523 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+17:51:49.978 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+17:56:31.557 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/l0dnipl575gy8epzvr7ngzpo5cankockdnhavb8v to view build report, insights, and many more debugging information all at one place!
+
+17:56:32.413 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/fd3b2d74c46957355b178c79b0a79ee1132e1634
+17:56:32.413 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+17:56:40.737 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+18:22:55.207 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+18:22:55.209 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+18:22:55.375 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+18:22:55.452 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+18:22:57.715 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 2'
+18:22:57.755 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+18:23:09.640 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+18:23:23.874 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+18:23:23.874 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+18:23:29.611 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+18:27:13.152 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ed3u6mcy8gw2h2vplt2p7toip9qouelntendodwd to view build report, insights, and many more debugging information all at one place!
+
+18:27:21.656 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+21:16:54.131 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+21:16:54.133 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+21:16:54.306 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+21:16:54.376 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+21:16:56.693 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 3'
+21:16:56.733 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+21:17:10.497 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+21:17:30.162 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+21:17:30.163 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+21:17:36.074 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+21:21:08.352 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ail5iibokvgcweobwztbkdjsr179jfu9vtynf7u0 to view build report, insights, and many more debugging information all at one place!
+
+21:21:09.009 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/ae6d7999c22dbfbc21cbdc2e171d82da57d48998
+21:21:09.010 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+21:21:17.858 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+22:48:21.475 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+22:48:21.478 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+22:48:21.734 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+22:48:21.828 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+22:48:24.691 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - io.cucumber.core.cli.Main --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name ^Build Tool 2 \- Grade step$ --glue StepDefs --glue StefDefs C:/Users/ShubhamT.INTERRAIT/APITesting/automationtesting_11Jan/automationtesting_11Jan/digital-automation/src/test/resources/feature/BuildToolFlows.feature
+22:48:24.740 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+22:48:41.696 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+22:48:56.294 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+22:48:56.295 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+22:49:03.421 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+22:51:02.896 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/qledporjbm3xecvei4keejbd1ejyb97azq3dtanf to view build report, insights, and many more debugging information all at one place!
+
+22:51:03.653 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/53d10e76b1a998c4cda13cf4b47811edb3d9f6cc
+22:51:03.654 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+22:51:12.830 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+22:56:32.046 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+22:56:32.052 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+22:56:32.472 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+22:56:32.556 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+22:56:35.293 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - io.cucumber.core.cli.Main --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name ^Build Tool 2 \- Grade step$ --glue StepDefs --glue StefDefs C:/Users/ShubhamT.INTERRAIT/APITesting/automationtesting_11Jan/automationtesting_11Jan/digital-automation/src/test/resources/feature/BuildToolFlows.feature
+22:56:35.346 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+22:56:50.418 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+22:57:08.706 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+22:57:08.706 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+22:57:15.389 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+22:58:57.835 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/0362nxm999nwsptwqwmpjsy2nrueo95chspxrf6d to view build report, insights, and many more debugging information all at one place!
+
+22:58:59.859 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/6672b08d071ab5ccf46b00478bfb0c57d8373d37
+22:58:59.860 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+22:59:08.835 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+23:03:20.237 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+23:03:20.239 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+23:03:20.435 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+23:03:20.512 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+23:03:23.103 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - io.cucumber.core.cli.Main --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --glue StepDefs --glue StefDefs C:/Users/ShubhamT.INTERRAIT/APITesting/automationtesting_11Jan/automationtesting_11Jan/digital-automation/src/test/resources/feature/BuildToolFlows.feature
+23:03:23.155 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+23:03:34.989 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+23:03:48.250 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+23:03:48.251 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:03:53.966 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+23:06:28.956 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/homh1i5tupj7b0rdovzr3vtbdej5k7g0b1da1wkc to view build report, insights, and many more debugging information all at one place!
+
+23:06:31.802 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/b4aae5ca1e555faec74bc2097d930d27544483fd
+23:06:31.803 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:06:54.724 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+23:06:54.729 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+23:06:55.012 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+23:06:55.100 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+23:06:57.794 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - io.cucumber.core.cli.Main --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name ^Build Tool 2 \- Grade step$ --glue StepDefs --glue StefDefs C:/Users/ShubhamT.INTERRAIT/APITesting/automationtesting_11Jan/automationtesting_11Jan/digital-automation/src/test/resources/feature/BuildToolFlows.feature
+23:06:57.844 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+23:07:10.203 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+23:07:24.635 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+23:07:24.635 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:07:30.365 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+23:09:39.016 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/xon9qyghvygxlomar43orfgyphwpijfxkfgur1vm to view build report, insights, and many more debugging information all at one place!
+
+23:09:41.068 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/66383220e8cb9251eea87f94a0d9531e98bff163
+23:09:41.069 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:09:50.110 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+23:25:07.061 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+23:25:07.068 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+23:25:07.508 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+23:25:07.586 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+23:25:10.503 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - io.cucumber.core.cli.Main --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name ^Build Tool 2 \- Grade step$ --glue StepDefs --glue StefDefs C:/Users/ShubhamT.INTERRAIT/APITesting/automationtesting_11Jan/automationtesting_11Jan/digital-automation/src/test/resources/feature/BuildToolFlows.feature
+23:25:10.554 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+23:25:24.320 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+23:25:44.012 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+23:25:44.012 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:25:50.826 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+23:28:43.957 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/xeh5qhrs9f7tx7llgxdqkpqdpbiusrlgzkbpwk8h to view build report, insights, and many more debugging information all at one place!
+
+23:28:44.669 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/624683ff4eafa065334589492eeb1f539ee87783
+23:28:44.670 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:28:54.063 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+23:32:02.161 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+23:32:02.165 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+23:32:02.417 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+23:32:02.515 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+23:32:05.918 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - io.cucumber.core.cli.Main --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name ^Build Tool 2 \- Grade step$ --glue StepDefs --glue StefDefs C:/Users/ShubhamT.INTERRAIT/APITesting/automationtesting_11Jan/automationtesting_11Jan/digital-automation/src/test/resources/feature/BuildToolFlows.feature
+23:32:06.028 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+23:32:18.946 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+23:32:32.324 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+23:32:32.325 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:32:38.609 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+23:34:27.689 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/u6unyo9y7ipqa8ke7cthv8kbeeyxqv9kbln7nnyd to view build report, insights, and many more debugging information all at one place!
+
+23:34:28.923 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/60cc36807972899afaf6fadf686c8ff7bc8a3b24
+23:34:28.923 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:34:37.914 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+23:39:46.067 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+23:39:46.074 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+23:39:46.350 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+23:39:46.419 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+23:39:49.088 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - io.cucumber.core.cli.Main --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name ^Build Tool 2 \- Grade step$ --glue StepDefs --glue StefDefs C:/Users/ShubhamT.INTERRAIT/APITesting/automationtesting_11Jan/automationtesting_11Jan/digital-automation/src/test/resources/feature/BuildToolFlows.feature
+23:39:49.139 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+23:39:59.799 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+23:40:12.993 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+23:40:12.993 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:40:18.628 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+23:41:59.200 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/mc0xbhqihi9s8xuzemawyqhxpqhnspohoobboezz to view build report, insights, and many more debugging information all at one place!
+
+23:42:01.372 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/8ee9d99c73cbaab5763f1e1f1da8b01fecb7dbfd
+23:42:01.372 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:42:10.672 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+23:43:10.803 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+23:43:10.807 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+23:43:11.006 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+23:43:11.098 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+23:43:13.921 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - io.cucumber.core.cli.Main --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name ^Build Tool 2 \- Grade step$ --glue StepDefs --glue StefDefs C:/Users/ShubhamT.INTERRAIT/APITesting/automationtesting_11Jan/automationtesting_11Jan/digital-automation/src/test/resources/feature/BuildToolFlows.feature
+23:43:13.973 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+23:43:24.911 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+23:43:37.192 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+23:43:37.192 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:43:43.172 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+23:45:43.100 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/lvgqa6fzcklj6nphrysbik00pqa1cklcs3ylht76 to view build report, insights, and many more debugging information all at one place!
+
+23:45:43.938 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/95ba00312ded4aedbc8b7d6bac71841a6d842b67
+23:45:43.938 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:45:53.754 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+23:49:17.315 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+23:49:17.319 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+23:49:17.532 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+23:49:17.598 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+23:49:20.210 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - io.cucumber.core.cli.Main --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --glue StepDefs --glue StefDefs C:/Users/ShubhamT.INTERRAIT/APITesting/automationtesting_11Jan/automationtesting_11Jan/digital-automation/src/test/resources/feature/BuildToolFlows.feature
+23:49:20.262 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+23:49:31.624 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+23:49:44.964 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+23:49:44.965 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:49:52.218 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+23:55:16.310 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/nl0ykt0qnjorxh0xqpettwtdwicd4jyytlpkj2de to view build report, insights, and many more debugging information all at one place!
+
+23:55:17.180 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/9d7109d3389ca5e78ca9e61e036015c4474677af
+23:55:17.181 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:55:24.657 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+23:58:24.690 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+23:58:24.694 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+23:58:24.931 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+23:58:24.997 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+23:58:27.590 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - io.cucumber.core.cli.Main --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name ^Build Tool 2 \- Grade step$ --glue StepDefs --glue StefDefs C:/Users/ShubhamT.INTERRAIT/APITesting/automationtesting_11Jan/automationtesting_11Jan/digital-automation/src/test/resources/feature/BuildToolFlows.feature
+23:58:27.638 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+23:58:36.586 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+23:58:50.022 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+23:58:50.022 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:58:56.376 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+00:02:59.824 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/cadgplltwsy17mtptj5vyk8q023gi2ssq25vg9pr to view build report, insights, and many more debugging information all at one place!
+
+00:03:01.334 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/fcff56e10e2edbe523ec5fdfdedac12c9df0d779
+00:03:01.334 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+00:03:10.879 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+00:04:54.111 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+00:04:54.114 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+00:04:54.514 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+00:04:54.630 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+00:04:57.427 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - io.cucumber.core.cli.Main --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name ^Build Tool 2 \- Grade step$ --glue StepDefs --glue StefDefs C:/Users/ShubhamT.INTERRAIT/APITesting/automationtesting_11Jan/automationtesting_11Jan/digital-automation/src/test/resources/feature/BuildToolFlows.feature
+00:04:57.478 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+00:05:12.971 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+00:05:28.231 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+00:05:28.232 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:05:34.831 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+00:08:49.266 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/hp0wjl7i1aa2l8ermyyhayq4js6ogaxpmsffdvod to view build report, insights, and many more debugging information all at one place!
+
+00:08:51.365 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/991681de583c1d1113739fe578c68eb8e720f17f
+00:08:51.365 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+00:09:00.610 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+00:11:01.859 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+00:11:01.862 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+00:11:02.216 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+00:11:02.326 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+00:11:05.070 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - io.cucumber.core.cli.Main --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name ^Build Tool 2 \- Grade step$ --glue StepDefs --glue StefDefs C:/Users/ShubhamT.INTERRAIT/APITesting/automationtesting_11Jan/automationtesting_11Jan/digital-automation/src/test/resources/feature/BuildToolFlows.feature
+00:11:05.121 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+00:11:17.589 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+00:11:32.108 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+00:11:32.108 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:11:38.469 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+00:14:44.457 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/mjgtvip0upgqlhpeqyoigz6yp16pb7gqd5vq96v2 to view build report, insights, and many more debugging information all at one place!
+
+00:14:46.311 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/cf00caa66efe038166e49f6f0803d589f11a14cd
+00:14:46.311 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+00:14:55.658 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+08:42:01.514 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+08:42:01.517 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+08:42:01.714 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+08:42:01.783 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+08:42:03.943 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 1'
+08:42:03.979 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+08:42:13.322 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+08:42:27.689 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+08:42:27.690 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+08:42:35.092 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+08:45:56.734 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/g1ltrv6uuc4hmzdwislq3alqdzoetgxckjlfxl8i to view build report, insights, and many more debugging information all at one place!
+
+08:45:58.379 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/0d93f9ec01ffd5b2d7766a23791fc4f37e381326
+08:45:58.379 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+08:46:05.416 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+09:13:07.956 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+09:13:07.959 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+09:13:08.169 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+09:13:08.232 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+09:13:11.059 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - io.cucumber.core.cli.Main --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --glue StepDefs --glue StefDefs C:/Users/ShubhamT.INTERRAIT/APITesting/automationtesting_11Jan/automationtesting_11Jan/digital-automation/src/test/resources/feature/BuildToolFlows.feature
+09:13:11.120 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+09:13:21.775 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+09:13:35.098 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+09:13:35.099 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+09:13:41.695 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+09:18:13.053 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/n5edaepfi0fa1dk5wwjhw9ljhnjawbneekedjqah to view build report, insights, and many more debugging information all at one place!
+
+09:18:13.795 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/5b43d66b90366e18a80c675bea891d101606b81c
+09:18:13.795 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+09:18:20.431 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+09:54:18.129 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+09:54:18.132 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+09:54:18.419 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+09:54:18.517 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+09:54:21.335 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 2'
+09:54:21.376 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+09:54:29.829 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+09:54:42.528 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+09:54:42.529 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+09:54:48.152 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+09:59:27.972 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/s0ovxoyo8zvi1br2qrzifuqhiey7ufclm3o20d0a to view build report, insights, and many more debugging information all at one place!
+
+09:59:29.243 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/589ee53d950ad8be4322fe9d6925d0e4f678dfbd
+09:59:29.243 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+09:59:36.029 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+12:45:06.931 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+12:45:06.935 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+12:45:07.219 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+12:45:07.329 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:45:10.534 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 3'
+12:45:10.603 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+12:45:21.444 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+12:45:44.854 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+12:45:44.856 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+12:45:54.310 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+12:48:58.763 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/dqisk9elqwub4cld2adutjwz28qcuoltehshjcp4 to view build report, insights, and many more debugging information all at one place!
+
+12:49:00.158 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/31130c983b88a1f06b90b66493d1839f48addee4
+12:49:00.158 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:49:09.208 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+17:41:49.679 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+17:41:49.682 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+17:41:49.884 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+17:41:49.960 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:41:52.385 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 1'
+17:41:52.423 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+17:42:01.435 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+17:42:16.130 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+17:42:16.130 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+17:42:23.327 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+17:45:34.178 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/1sxsjfz05rymi2jaiakfyrw8uffzkpzophdhkwqi to view build report, insights, and many more debugging information all at one place!
+
+17:45:41.885 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+17:46:49.753 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+17:46:49.755 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+17:46:49.912 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+17:46:49.966 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:46:52.054 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 2'
+17:46:52.092 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+17:47:01.690 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+17:47:13.399 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+17:47:13.400 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+17:47:18.903 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+17:47:33.721 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/zgsm18dkoaoqhlgw6o2rgctkd0ncskud73eumesn to view build report, insights, and many more debugging information all at one place!
+
+17:47:40.283 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+17:49:35.230 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+17:49:35.232 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+17:49:35.395 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+17:49:35.464 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:49:37.559 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 3'
+17:49:37.595 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+17:49:45.486 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+17:49:57.763 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+17:49:57.763 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+17:50:03.077 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+17:50:14.482 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/xojkmqg4ofyfk2cgvite9ruoacieroipwpmmefeg to view build report, insights, and many more debugging information all at one place!
+
+17:50:22.439 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+17:50:30.446 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+17:50:30.448 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+17:50:30.611 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+17:50:30.666 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:50:32.870 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 4'
+17:50:32.906 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+17:50:42.012 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+17:50:52.938 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+17:50:52.939 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+17:50:57.960 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+17:55:47.572 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/atqhfm2wufeawpndblvtyrehzviekeaoqfx8hwkc to view build report, insights, and many more debugging information all at one place!
+
+17:55:48.194 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/ee1159fe8cc718f9bdfad559bde5cb45ae850aef
+17:55:48.194 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+17:55:54.965 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+17:58:36.492 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+17:58:36.494 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+17:58:36.658 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+17:58:36.729 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:58:39.371 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 5'
+17:58:39.412 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+17:58:50.799 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+17:59:03.136 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+17:59:03.136 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+17:59:09.010 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+18:02:29.213 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/bkpyoeimnlkgoxmrzmfvxviisxhggedbazraq6k6 to view build report, insights, and many more debugging information all at one place!
+
+18:02:31.501 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/2993029688384c135ab1bf3b68878c2391ab22ee
+18:02:31.501 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+18:02:38.308 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+18:18:34.089 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+18:18:34.091 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+18:18:34.301 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+18:18:34.379 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+18:18:36.921 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 6'
+18:18:36.987 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+18:18:51.556 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+18:19:03.728 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+18:19:03.729 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+18:19:11.128 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+18:22:23.429 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/qvtbxosdxch9elmpvretsoihssneu8tcsytqi49z to view build report, insights, and many more debugging information all at one place!
+
+18:22:32.633 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+18:37:44.157 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+18:37:44.160 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+18:37:44.364 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+18:37:44.442 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+18:37:46.758 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 9'
+18:37:46.802 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+18:38:00.116 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+18:38:13.546 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+18:38:13.547 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+18:38:22.381 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+18:43:36.990 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/omednfenyjbgtgoj4080ybzim6cjsftghgqoa57x to view build report, insights, and many more debugging information all at one place!
+
+18:43:37.717 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/9a9d42094afef743b240c7649275450939c0892d
+18:43:37.717 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+18:43:47.804 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+18:53:13.762 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+18:53:13.764 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+18:53:14.019 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+18:53:14.102 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+18:53:16.609 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 10'
+18:53:16.658 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+18:53:30.989 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+18:53:43.074 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+18:53:43.075 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+18:53:49.869 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+18:58:51.442 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/acc2r4uunbgui1qv7t0gs4mm2zvmi3azz92mguzw to view build report, insights, and many more debugging information all at one place!
+
+18:58:52.506 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/f0c87d0079f7d010dc5e02a40cefe37ca27247e9
+18:58:52.506 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+18:59:00.058 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+23:20:19.286 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+23:20:19.290 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+23:20:19.625 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+23:20:19.741 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+23:20:22.515 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 1'
+23:20:22.568 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+23:20:33.606 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+23:20:53.660 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+23:21:12.063 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/1z43u4rzt2hloisgfkwydvxtattsqfosx822hhtr to view build report, insights, and many more debugging information all at one place!
+
+23:21:18.627 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+23:22:30.663 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+23:22:30.668 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+23:22:30.914 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+23:22:30.996 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+23:22:33.366 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 2'
+23:22:33.422 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+23:22:41.655 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+23:22:56.800 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+23:23:12.455 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/xla4pu5ee57bsuy7b4vplvckjh7zdfmg5egm5wln to view build report, insights, and many more debugging information all at one place!
+
+23:23:19.022 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+23:24:23.037 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+23:24:23.040 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+23:24:23.288 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+23:24:23.383 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+23:24:25.846 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 3'
+23:24:25.897 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+23:24:37.751 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+23:24:52.928 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+23:24:52.929 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:25:00.079 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+23:28:14.430 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/gb7pa7uxdt1mbz1wam5nmihivbimipls6zv4g4yd to view build report, insights, and many more debugging information all at one place!
+
+23:28:22.791 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+23:28:33.459 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+23:28:33.463 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+23:28:33.723 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+23:28:33.806 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+23:28:36.487 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 4'
+23:28:36.542 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+23:28:46.271 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+23:29:00.530 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+23:29:00.530 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:29:08.034 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+23:32:23.930 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/xssmrdm3nsnvqbhtzu26pnszhszv7ymdlxworxn6 to view build report, insights, and many more debugging information all at one place!
+
+23:32:33.421 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+23:44:40.214 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+23:44:40.217 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+23:44:40.501 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+23:44:40.629 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+23:44:43.846 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 5'
+23:44:43.923 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+23:44:54.708 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+23:45:10.693 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+23:45:10.694 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:45:17.280 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+23:48:34.105 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/yo7egwkw9raugq6suz9hmrxqk5zsjpi4ndhvsiab to view build report, insights, and many more debugging information all at one place!
+
+23:48:43.961 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+23:57:05.089 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+23:57:05.093 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+23:57:05.357 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+23:57:05.446 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+23:57:08.189 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 6'
+23:57:08.247 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+23:57:20.198 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+23:57:35.784 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+23:57:35.785 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:57:44.801 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+00:03:31.708 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/e6dxpg46nvyxu0xdmefqdyckf60ybc6fxcbqvotj to view build report, insights, and many more debugging information all at one place!
+
+00:03:32.403 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/c2907d19afcf80e0c41beddcaa14a0e70300219f
+00:03:32.403 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+00:03:42.213 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+00:05:16.455 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+00:05:16.460 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.3.0
+00:05:16.771 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\ShubhamT.INTERRAIT\APITesting\automationtesting_11Jan\automationtesting_11Jan\digital-automation\browserstack.yml
+00:05:16.912 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+00:05:20.450 [main] INFO  c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 7'
+00:05:20.534 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber-testng
+00:05:30.515 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+00:05:47.266 [Thread-6] INFO  com.browserstack.percy.Percy - Percy started successfully
+00:05:47.267 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:05:55.624 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+00:09:21.872 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/owlsnlk6igyozlwmlats8hq2x3ov2y1jiespjzls to view build report, insights, and many more debugging information all at one place!
+
+00:09:22.589 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/fb13ad52328aafc9b9c382e25fff984cd8490c59
+00:09:22.589 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+00:09:31.434 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully

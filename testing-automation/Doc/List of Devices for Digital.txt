@@ -1,0 +1,45 @@
+﻿1. Iphone 15 pro / pro max
+safari browser latest version
+2. Android Samsung s23 ultra
+Chrome latest version
+3. Windows desktop
+Chrome browser latest version
+4. Windows desktop
+Edge browser latest version
+5. I Mac Sonama / Ventura
+Safari browser latest version
+
+
+deviceName: Iphone 15 pro
+browserName: safari
+osVersion: latest
+
+deviceName: Samsung Galaxy S22 Ultra
+browserName: chrome
+osVersion: latest
+
+os: Windows
+osVersion: 10
+browserName: chrome
+browserVersion: latest
+
+os: Windows
+osVersion: 10
+browserName: edge
+browserVersion: latest
+
+os: Mac
+osVersion: Sonoma
+browserName: safari
+browserVersion: latest
+
+os: Mac
+osVersion: Ventura
+browserName: safari
+browserVersion: latest
+
+userName: smaranikamohapat_VzsRMP
+accessKey: wXvQuRb5HRjxXSqDmqCK
+
+https://smaranikamohapat_VzsRMP:wXvQuRb5HRjxXSqDmqCK@hub.browserstack.com/wd/hub"), capabilities);
+

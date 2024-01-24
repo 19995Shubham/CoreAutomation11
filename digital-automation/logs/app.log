@@ -1,0 +1,13 @@
+[2024-01-25 00:06:17] [INFO ] [digitalLoginPage] - Logged in User Name is: testuser
+[2024-01-25 00:06:51] [INFO ] [digitalLoginPage] - Clicked on button: Buying Tools
+[2024-01-25 00:07:30] [INFO ] [digitalLoginPage] - User landed on Build Step page
+[2024-01-25 00:07:41] [INFO ] [buildPage] - Actual Engine titles are: []
+[2024-01-25 00:07:56] [INFO ] [digitalLoginPage] - Landed on Personalise Page
+[2024-01-25 00:08:06] [INFO ] [personalisePage] - Actual Optional Packs are: []
+[2024-01-25 00:08:33] [INFO ] [digitalLoginPage] - Make It your page title is: null
+[2024-01-25 00:09:08] [INFO ] [digitalLoginPage] - Logged in User Name is: testuser
+[2024-01-25 00:09:08] [INFO ] [digitalLoginPage] - Logged in User Name is: testuser
+[2024-01-25 00:09:12] [INFO ] [digitalLoginPage] - User landed on Build Step page
+[2024-01-25 00:09:12] [INFO ] [digitalLoginPage] - User landed on Build Step page
+[2024-01-25 00:09:13] [INFO ] [digitalLoginPage] - Landed on Personalise Page
+[2024-01-25 00:09:14] [INFO ] [digitalLoginPage] - Landed on Personalise Page

@@ -1,0 +1,65 @@
+[2024-01-19 17:12:34] [INFO ] [BaseTest_Core] - Scenario 1: Dealer Backward Order
+[2024-01-19 17:12:34] [INFO ] [BaseTest_Core] - Account Url..https://uat-erp-dealer.mazda.com.au/Accounts/ui/
+[2024-01-19 17:12:48] [INFO ] [loginPage] - Logged in User Name is: SGROSDANIS
+[2024-01-19 17:12:51] [INFO ] [loginPage] - Required Menu: Accounts
+[2024-01-19 17:12:51] [INFO ] [loginPage] - Required Sub menu: Trader Details
+[2024-01-19 17:13:00] [INFO ] [BackForwardFirmOrderStepDefinition] - Current Url is: https://uat-erp-dealer.mazda.com.au/Accounts/ui/accounting/trader-maintenance
+[2024-01-19 17:13:00] [INFO ] [BaseTest_Core] - Vehicle Url..https://uat-erp-dealer.mazda.com.au/Vehicles/ui/
+[2024-01-19 17:13:01] [INFO ] [loginPage] - Logged in User Name is: MAL0008.R390705
+[2024-01-19 17:13:08] [INFO ] [loginPage] - Required Menu: Orders
+[2024-01-19 17:13:08] [INFO ] [loginPage] - Required Sub menu: Vehicle Order
+[2024-01-19 17:13:09] [ERROR] [loginPage] - Unable to click on menu/subMenu item: element click intercepted: Element <span _ngcontent-ydq-c201="" class="ui-menuitem-text">...</span> is not clickable at point (217, 24). Other element would receive the click: <div class="ui-blockui ui-widget-overlay ui-blockui-document" style="display: block; z-index: 3001;">...</div>
+  (Session info: MicrosoftEdge=120.0.2210.91)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [215227e0fcd118499326ab7116c0d733, clickElement {id=6C515BCB2B673C0E067F1EA950390DC0_element_585}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.91, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57717}, msedge: {msedgedriverVersion: 120.0.2210.144 (cbca972d598..., userDataDir: C:\Users\SMOHAP~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57717/devtoo..., se:cdpVersion: 120.0.2210.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on WINDOWS (215227e0fcd118499326ab7116c0d733)] -> xpath: //li[contains(@class,'ui-menuitem')]//span[text()='Orders']]
+Session ID: 215227e0fcd118499326ab7116c0d733
+[2024-01-19 17:13:30] [INFO ] [BaseTest_Core] - Scenario 2: Import File for Dealer Forward Orders
+[2024-01-19 17:13:30] [INFO ] [BaseTest_Core] - MCOrder Url..https://uat-erp-dealer.mazda.com.au/MCOrders/ui/
+[2024-01-19 17:13:52] [INFO ] [BaseTest_Core] - MCOrder Url..https://uat-erp-dealer.mazda.com.au/MCOrders/ui/
+[2024-01-19 17:13:53] [INFO ] [loginPage] - Logged in User Name is: SBZHOU
+[2024-01-19 17:13:54] [INFO ] [loginPage] - Required Menu: Forward Orders
+[2024-01-19 17:13:54] [INFO ] [loginPage] - Required Sub menu: Load Forward Orders
+[2024-01-19 17:13:54] [INFO ] [loadForwardOrderPage] - Page Title..Forward Order Allocation Download
+[2024-01-19 17:13:54] [INFO ] [BackForwardFirmOrderStepDefinition] - Entered forward order Id: A23-11-11
+[2024-01-19 17:13:54] [INFO ] [loadForwardOrderPage] - Entered forward ID is: A23-11-11
+[2024-01-19 17:13:55] [INFO ] [BackForwardFirmOrderStepDefinition] - Clicked on Button: Load Allocations
+[2024-01-19 17:13:55] [INFO ] [BackForwardFirmOrderStepDefinition] - Clicked on Button: Check Forward Order
+[2024-01-19 17:13:58] [INFO ] [BackForwardFirmOrderStepDefinition] - Text file imported successfully and File path is: C:\Core Automation\testing-automation\src\test\resources\property\FO A23-11-1.txt
+[2024-01-19 17:14:08] [INFO ] [BackForwardFirmOrderStepDefinition] - Forward Order Share of Productions not configured pop-up Displayed
+[2024-01-19 17:14:08] [INFO ] [loadForwardOrderPage] - Total Forward Order: 135
+[2024-01-19 17:14:19] [INFO ] [BaseTest_Core] - Scenario 3: Fully Met Dealer Vehicle Orders
+[2024-01-19 17:14:19] [INFO ] [BaseTest_Core] - Vehicle Url..https://uat-erp-dealer.mazda.com.au/Vehicles/ui/
+[2024-01-19 17:14:38] [INFO ] [BackForwardFirmOrderStepDefinition] - Current Url is: https://uat-erp-dealer.mazda.com.au/Vehicles/ui/
+[2024-01-19 17:14:38] [INFO ] [loginPage] - Logged in User Name is: MAL0008.R390705
+[2024-01-19 17:14:40] [INFO ] [loginPage] - Required Menu: Orders
+[2024-01-19 17:14:40] [INFO ] [loginPage] - Required Sub menu: Forward Order Entry
+[2024-01-19 17:14:41] [ERROR] [loginPage] - Unable to click on menu/subMenu item: element click intercepted: Element <span _ngcontent-ywa-c201="" class="ui-menuitem-text">...</span> is not clickable at point (217, 24). Other element would receive the click: <div class="ui-blockui ui-widget-overlay ui-blockui-document" style="display: block; z-index: 3001;">...</div>
+  (Session info: MicrosoftEdge=120.0.2210.91)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [73833c6bfb4cdc6cd09590748d73d4e5, clickElement {id=E6A61E07DD2B3B775738B00D2A119B60_element_32}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.91, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58059}, msedge: {msedgedriverVersion: 120.0.2210.144 (cbca972d598..., userDataDir: C:\Users\SMOHAP~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58059/devtoo..., se:cdpVersion: 120.0.2210.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on WINDOWS (73833c6bfb4cdc6cd09590748d73d4e5)] -> xpath: //li[contains(@class,'ui-menuitem')]//span[text()='Orders']]
+Session ID: 73833c6bfb4cdc6cd09590748d73d4e5
+[2024-01-19 17:14:51] [INFO ] [forwardOrderEntryPage] - Page Title..null
+[2024-01-19 17:15:03] [INFO ] [BaseTest_Core] - Scenario 4: Partially Met Dealer Vehicle Orders
+[2024-01-19 17:15:03] [INFO ] [BaseTest_Core] - Vehicle Url..https://uat-erp-dealer.mazda.com.au/Vehicles/ui/
+[2024-01-19 17:15:21] [INFO ] [BackForwardFirmOrderStepDefinition] - Current Url is: https://uat-erp-dealer.mazda.com.au/Vehicles/ui/
+[2024-01-19 17:15:21] [INFO ] [loginPage] - Logged in User Name is: RGU0005.W392757
+[2024-01-19 17:15:27] [INFO ] [loginPage] - Required Menu: Orders
+[2024-01-19 17:15:27] [INFO ] [loginPage] - Required Sub menu: Forward Order Entry
+[2024-01-19 17:15:31] [INFO ] [forwardOrderEntryPage] - Page Title..Vehicle Forward Orders
+[2024-01-19 17:15:32] [INFO ] [BackForwardFirmOrderStepDefinition] - Forward Entry page components: [Ljava.lang.String;@15371de2
+[2024-01-19 17:15:32] [INFO ] [BackForwardFirmOrderStepDefinition] - Expected cut off date is: null
+[2024-01-19 17:15:43] [INFO ] [BaseTest_Core] - Scenario 5: MC Order(Finalize forward order SOP%)
+[2024-01-19 17:15:43] [INFO ] [BaseTest_Core] - MCOrder Url..https://uat-erp-dealer.mazda.com.au/MCOrders/ui/
+[2024-01-19 17:15:46] [INFO ] [BaseTest_Core] - MCOrder Url..https://uat-erp-dealer.mazda.com.au/MCOrders/ui/
+[2024-01-19 17:15:54] [INFO ] [loginPage] - Logged in User Name is: SBZHOU
+[2024-01-19 17:15:55] [INFO ] [loginPage] - Required Menu: Maintenance
+[2024-01-19 17:15:55] [INFO ] [loginPage] - Required Sub menu: Forward Order Dates
+[2024-01-19 17:15:55] [INFO ] [finalizeForwardOrderSOPPage] - Keys to send is null. Handle accordingly.

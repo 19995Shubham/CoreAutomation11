@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="4" passed="0" skipped="0" total="4">
+    <suite duration-ms="198260" name="io.cucumber.core.plugin.TestNGFormatter">
+        <test duration-ms="198260" name="io.cucumber.core.plugin.TestNGFormatter">
+            <class name="Build Tool All Steps">
+                <test-method duration-ms="191330" finished-at="2024-01-24T18:39:10.928108100Z" name="Build Tool 2 - Grade step" started-at="2024-01-24T18:35:59.501726Z" status="FAIL">
+                    <exception class="org.openqa.selenium.WebDriverException">
+                        <message>
+                            <![CDATA[Given User visits mazda home page...........................................failed
+Then Validate All Broken links..............................................skipped
+Then Clicks "Buying Tools" from homepage....................................skipped
+And Clicks Build your mazda.................................................skipped
+And Close postcode pop-up...................................................skipped
+And Selects "MAZDA CX-60" model.............................................skipped
+Then Enter and Select postcode "3000".......................................skipped
+And Selects buyer type "Personal" if not selected...........................skipped
+And Click on Submit.........................................................skipped
+Then Verify different grades cards..........................................skipped
+Then Clicks on "Estimate Repayments" CTA....................................skipped
+And Validate Finance calculator opened and RDP price shown with other parameters.skipped
+Then Clicks on "Save and close" finance calculator popup....................skipped
+And Finance calculator options shown on popup should be shown in the grade cards.skipped
+Then clicks on "See key features explained".................................skipped
+And User should be able to scroll through different key feature cards.......skipped
+Then clicks on "Compare grades".............................................skipped
+Then clicking on mazda logo to land on home page............................skipped
+And Validate build abandonment popup........................................skipped
+Then Selects Build Yours CTA................................................skipped
+And Validate User stays on the Grade step...................................skipped
+Then clicking on mazda logo to land on home page............................skipped
+And Validate User is navigated back to mazda home page......................skipped
+Then selects "Build your CX-60" CTA.........................................skipped
+And Validate navigated back to grade step of CX-60..........................skipped
+Then Clicks on "NEXT" button................................................skipped
+And Validate Build step page................................................skipped
+]]>
+                        </message>
+                        <full-stacktrace>
+                            <![CDATA[org.openqa.selenium.WebDriverException: An unknown error has occurred
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [4e512744d59f8e09c55855530218345d08bf5307, executeScript {script=browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"failed", "reason": "Unable to Login with username testuser and password @Episerver1"}}, args=[]}]
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: chrome, chromedriverPort: 18080, databaseEnabled: false, desired: {browserName: chrome, chromedriverPort: 18080, deviceName: android, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb..., test-type, --proxy-server=http://185.2..., --disable-features=Translate]}, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8200, udid: R5CT321X89F}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-S908E, deviceName: R5CT321X89F, deviceScreenDensity: 450, deviceScreenSize: 1080x2316, deviceUDID: R5CT321X89F, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb..., test-type, --proxy-server=http://185.2..., --disable-features=Translate]}, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 0, optimalHubUrl: hub-aps.browserstack.com, pixelRatio: 2.8125, platform: LINUX, platformName: ANDROID, platformVersion: 12, skipServerInstallation: true, statBarHeight: 75, systemPort: 8200, takesScreenshot: true, udid: R5CT321X89F, viewportRect: {height: 2031, left: 0, top: 75, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 4e512744d59f8e09c55855530218345d08bf5307
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:480)
+	at common.digital.Utility.UtlDigitalActions.updateFailureStatus(UtlDigitalActions.java:55)
+	at common.digital.pom.pages.digitalLoginPage.setLogInCredentials(digitalLoginPage.java:103)
+	at StefDefs.BuildToolFlowsStepDefinition.user_visits_mazda_home_page(BuildToolFlowsStepDefinition.java:305)
+	at ✽.User visits mazda home page(file:///C:/Users/ShubhamT.INTERRAIT/APITesting/automationtesting_11Jan/automationtesting_11Jan/digital-automation/src/test/resources/feature/BuildToolFlows.feature:5)
+]]>
+                        </full-stacktrace>
+                    </exception>
+                </test-method>
+                <test-method duration-ms="47" finished-at="2024-01-24T18:39:12.625159800Z" name="Build Tool 2 - Build step" started-at="2024-01-24T18:39:12.475342100Z" status="FAIL">
+                    <exception class="org.openqa.selenium.NoSuchSessionException">
+                        <message>
+                            <![CDATA[Given User lands on Build Step of build tool................................passed
+Then User selects different engine options..................................failed
+And The engine card should be selected......................................skipped
+Then User clicks on  Help me choose.........................................skipped
+And User is displayed with different engine options.........................skipped
+Then User selects different exterior colour options and select "Soul Red Crystal Metallic".skipped
+Then User selects different interior options and select "Black Leather".....skipped
+Then User selects different wheel options and select "CX-60 18 inch Graphite Alloy Wheel".skipped
+Then User selects different wheel options and select "18-Inch Alloy"........skipped
+Then Clicks on Estimate Repayments CTA on Footer............................skipped
+And Validate Finance calculator opened and RDP price shown with other parameters.skipped
+Then Clicks on "Save and close" finance calculator popup....................skipped
+Then clicking on mazda logo to land on home page............................skipped
+And Validate build abandonment popup for Build Step.........................skipped
+Then User selects "save your build" CTA.....................................skipped
+And User is presented with a Build save form................................skipped
+Then clicking on mazda logo to land on home page............................skipped
+Then User selects "Continue your cx-60 build" CTA...........................skipped
+And User lands on Build Step of build tool..................................skipped
+Then clicking on mazda logo to land on home page............................skipped
+Then User selects "continue build" CTA......................................skipped
+And User stays on the build step with the selections unchanged..............skipped
+Then Clicks on "Continue" button on Build Page..............................skipped
+And User is navigated to the personalization step...........................skipped
+]]>
+                        </message>
+                        <full-stacktrace>
+                            <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"failed", "reason": "Engine Title Not matching"}}, args=[]}]
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: chrome, chromedriverPort: 18080, databaseEnabled: false, desired: {browserName: chrome, chromedriverPort: 18080, deviceName: android, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb..., test-type, --proxy-server=http://185.2..., --disable-features=Translate]}, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8200, udid: R5CT321X89F}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-S908E, deviceName: R5CT321X89F, deviceScreenDensity: 450, deviceScreenSize: 1080x2316, deviceUDID: R5CT321X89F, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb..., test-type, --proxy-server=http://185.2..., --disable-features=Translate]}, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 0, optimalHubUrl: hub-aps.browserstack.com, pixelRatio: 2.8125, platform: LINUX, platformName: ANDROID, platformVersion: 12, skipServerInstallation: true, statBarHeight: 75, systemPort: 8200, takesScreenshot: true, udid: R5CT321X89F, viewportRect: {height: 2031, left: 0, top: 75, width: 1080}, warnings: {}, webStorageEnabled: false}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:154)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:480)
+	at common.digital.Utility.UtlDigitalActions.updateFailureStatus(UtlDigitalActions.java:55)
+	at common.digital.pom.pages.buildPage.validateEngineTitles(buildPage.java:64)
+	at StefDefs.BuildToolFlowsStepDefinition.userSelectsDifferentEngineOptions(BuildToolFlowsStepDefinition.java:222)
+	at ✽.User selects different engine options(file:///C:/Users/ShubhamT.INTERRAIT/APITesting/automationtesting_11Jan/automationtesting_11Jan/digital-automation/src/test/resources/feature/BuildToolFlows.feature:37)
+]]>
+                        </full-stacktrace>
+                    </exception>
+                </test-method>
+                <test-method duration-ms="43" finished-at="2024-01-24T18:39:14.266286200Z" name="Build Tool 2 - Personalise step" started-at="2024-01-24T18:39:14.134271100Z" status="FAIL">
+                    <exception class="org.openqa.selenium.NoSuchSessionException">
+                        <message>
+                            <![CDATA[Given User lands on personalise step of build tool..........................passed
+Then User selects different option packs available..........................failed
+Then User selects different accessory options available.....................skipped
+Then Clicks on Estimate Repayments CTA on Footer............................skipped
+And Validate Finance calculator opened and RDP price shown with other parameters.skipped
+Then Clicks on "Save and close" finance calculator popup....................skipped
+Then clicking on mazda logo to land on home page............................skipped
+And Validate build abandonment popup for Personalise Step...................skipped
+Then User selects "save your build" CTA.....................................skipped
+And User is presented with a Build save form................................skipped
+Then clicking on mazda logo to land on home page............................skipped
+Then User selects "Continue your cx-60 build" CTA...........................skipped
+And User lands on personalise step of build tool............................skipped
+Then clicking on mazda logo to land on home page............................skipped
+Then User selects "continue build" CTA......................................skipped
+Then Clicks on "NEXT" button................................................skipped
+And User is navigated to the Make It Yours step.............................skipped
+]]>
+                        </message>
+                        <full-stacktrace>
+                            <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"failed", "reason": "Optional Packs Not matching"}}, args=[]}]
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: chrome, chromedriverPort: 18080, databaseEnabled: false, desired: {browserName: chrome, chromedriverPort: 18080, deviceName: android, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb..., test-type, --proxy-server=http://185.2..., --disable-features=Translate]}, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8200, udid: R5CT321X89F}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-S908E, deviceName: R5CT321X89F, deviceScreenDensity: 450, deviceScreenSize: 1080x2316, deviceUDID: R5CT321X89F, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb..., test-type, --proxy-server=http://185.2..., --disable-features=Translate]}, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 0, optimalHubUrl: hub-aps.browserstack.com, pixelRatio: 2.8125, platform: LINUX, platformName: ANDROID, platformVersion: 12, skipServerInstallation: true, statBarHeight: 75, systemPort: 8200, takesScreenshot: true, udid: R5CT321X89F, viewportRect: {height: 2031, left: 0, top: 75, width: 1080}, warnings: {}, webStorageEnabled: false}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:154)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:480)
+	at common.digital.Utility.UtlDigitalActions.updateFailureStatus(UtlDigitalActions.java:55)
+	at common.digital.pom.pages.personalisePage.validateOptionalPacks(personalisePage.java:65)
+	at StefDefs.BuildToolFlowsStepDefinition.userSelectsDifferentOptionPacksAvailable(BuildToolFlowsStepDefinition.java:338)
+	at ✽.User selects different option packs available(file:///C:/Users/ShubhamT.INTERRAIT/APITesting/automationtesting_11Jan/automationtesting_11Jan/digital-automation/src/test/resources/feature/BuildToolFlows.feature:64)
+]]>
+                        </full-stacktrace>
+                    </exception>
+                </test-method>
+                <test-method duration-ms="23" finished-at="2024-01-24T18:39:15.880692400Z" name="Build Tool 2 - MIY step" started-at="2024-01-24T18:39:15.771235300Z" status="FAIL">
+                    <exception class="org.openqa.selenium.NoSuchSessionException">
+                        <message>
+                            <![CDATA[Given User lands on the MIY step of build tool..............................failed
+Then User is presented with different CTA's.................................skipped
+And "BOOK YOUR TEST DRIVE" when price is selected - Navigates to Book a test drive form.skipped
+And "ENQUIRY" when finance is selected - Navigates to Make an Enqiry form...skipped
+And "Save and Email your build" is standard for both selections - Navigates to Build Save form.skipped
+Then Final price is shown as default for the configurations selected in build journey.skipped
+And The accordians when expanded Drive Away Price should be accurate........skipped
+Then User selections should be shown under "My Design" section..............skipped
+And Validate User selections................................................skipped
+Then User should be able to edit selections made using the edit under "My Design" section.skipped
+And User should be navigated back to the specific fields of configuration, in the respective steps.skipped
+And My design section should be updated with the latest selections..........skipped
+Then User selects "Save" CTA................................................skipped
+And User should be presented with a build save form.........................skipped
+Then clicking on mazda logo to land on home page............................skipped
+Then User selects "Exit Build" CTA..........................................skipped
+]]>
+                        </message>
+                        <full-stacktrace>
+                            <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, findElement {using=xpath, value=//h1[text()='BUILD SUMMARY']}]
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: chrome, chromedriverPort: 18080, databaseEnabled: false, desired: {browserName: chrome, chromedriverPort: 18080, deviceName: android, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb..., test-type, --proxy-server=http://185.2..., --disable-features=Translate]}, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8200, udid: R5CT321X89F}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-S908E, deviceName: R5CT321X89F, deviceScreenDensity: 450, deviceScreenSize: 1080x2316, deviceUDID: R5CT321X89F, goog:chromeOptions: {args: [--proxy-bypass-list=<-loopb..., test-type, --proxy-server=http://185.2..., --disable-features=Translate]}, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 0, optimalHubUrl: hub-aps.browserstack.com, pixelRatio: 2.8125, platform: LINUX, platformName: ANDROID, platformVersion: 12, skipServerInstallation: true, statBarHeight: 75, systemPort: 8200, takesScreenshot: true, udid: R5CT321X89F, viewportRect: {height: 2031, left: 0, top: 75, width: 1080}, warnings: {}, webStorageEnabled: false}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:154)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at common.shared.Utility.UtlActions.waitForElement(UtlActions.java:53)
+	at common.shared.Utility.UtlActions.getText(UtlActions.java:94)
+	at common.digital.pom.pages.MIYPage.validateMIYPageTitle(MIYPage.java:50)
+	at StefDefs.BuildToolFlowsStepDefinition.userLandsOnTheMIYStepOfBuildTool(BuildToolFlowsStepDefinition.java:362)
+	at ✽.User lands on the MIY step of build tool(file:///C:/Users/ShubhamT.INTERRAIT/APITesting/automationtesting_11Jan/automationtesting_11Jan/digital-automation/src/test/resources/feature/BuildToolFlows.feature:83)
+]]>
+                        </full-stacktrace>
+                    </exception>
+                </test-method>
+            </class>
+        </test>
+    </suite>
+</testng-results>

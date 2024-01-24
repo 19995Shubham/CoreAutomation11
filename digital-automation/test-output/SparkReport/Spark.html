@@ -1,0 +1,944 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Extent</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Grasshopper Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jan 18, 2024 03:39:25 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jan 18, 2024 03:39:25 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jan 18, 2024 03:39:30 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='100%'><b>4</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> steps passed</small></div>
+<div>
+<small data-tooltip='4%'><b>4</b> steps failed,
+<b>81</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Build Tool All Steps":4.211
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@digital</td>
+<td>0</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 4,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 4,
+warningGrandChild: 0,
+skipGrandChild: 81,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script><div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@digital</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Build Tool All Steps</p>
+            <p class="text-sm">
+              <span>3:39:26 AM</span> / <span>00:00:04:211</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Build Tool All Steps</h5>
+<span class='badge badge-success'>01.18.2024 3:39:26 AM</span>
+<span class='badge badge-danger'>01.18.2024 3:39:30 AM</span>
+<span class='badge badge-default'>00:00:04:211</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Build Tool 2 - Grade step</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="StefDefs.BuildToolFlowsStepDefinition.user_visits_mazda_home_page()">
+                <span>Given User visits mazda home page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at common.digital.Utility.UtlDigitalActions.updateFailureStatus(UtlDigitalActions.java:55)
+	at common.digital.pom.pages.digitalLoginPage.validatePageLoad(digitalLoginPage.java:41)
+	at StefDefs.BuildToolFlowsStepDefinition.user_visits_mazda_home_page(BuildToolFlowsStepDefinition.java:302)
+	at ✽.User visits mazda home page(file:///C:/Test%20Automation/automationtesting_11Jan/digital-automation/src/test/resources/feature/BuildToolFlows.feature:5)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.validate_all_broken_links()">
+                <span>Then Validate All Broken links</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.clicksFromHomepage(java.lang.String)">
+                <span>Then Clicks "Buying Tools" from homepage</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.clicksBuildYourMazda()">
+                <span>And Clicks Build your mazda</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.closePostcodePopUp()">
+                <span>And Close postcode pop-up</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.selectsModel(java.lang.String)">
+                <span>And Selects "MAZDA CX-60" model</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.enterAndSelectPostcode(java.lang.String)">
+                <span>Then Enter and Select postcode "3000"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.selectsBuyerTypeIfNotSelected(java.lang.String)">
+                <span>And Selects buyer type "Personal" if not selected</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.clickOnSubmit()">
+                <span>And Click on Submit</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.verifyDifferentGradesCards()">
+                <span>Then Verify different grades cards</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.clicksOnCTA(java.lang.String)">
+                <span>Then Clicks on "Estimate Repayments" CTA</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.validateFinanceCalculatorOpenedAndRDPPriceShownWithOtherParameters()">
+                <span>And Validate Finance calculator opened and RDP price shown with other parameters</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.clicksOnFinanceCalculatorPopup(java.lang.String)">
+                <span>Then Clicks on "Save and close" finance calculator popup</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.financeCalculatorOptionsShownOnPopupShouldBeShownInTheGradeCards()">
+                <span>And Finance calculator options shown on popup should be shown in the grade cards</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.clicksOn(java.lang.String)">
+                <span>Then clicks on "See key features explained"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userShouldBeAbleToScrollThroughDifferentKeyFeatureCards()">
+                <span>And User should be able to scroll through different key feature cards</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.clicksOn(java.lang.String)">
+                <span>Then clicks on "Compare grades"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.comparePageShouldBeOpenedInANewTabWithTheSelectedGradeAlreadySelected()">
+                <span>And Compare page should be opened in a new tab, with the selected grade already selected.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.clickingOnMazdaLogoToLandOnHomePage()">
+                <span>Then clicking on mazda logo to land on home page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.validateBuildAbandonmentPopup()">
+                <span>And Validate build abandonment popup</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.selectsBuildYoursCTA()">
+                <span>Then Selects Build Yours CTA</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.validateUserStaysOnTheGradeStep()">
+                <span>And Validate User stays on the Grade step</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.clickingOnMazdaLogoToLandOnHomePage()">
+                <span>Then clicking on mazda logo to land on home page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.validateUserIsNavigatedBackToMazdaHomePage()">
+                <span>And Validate User is navigated back to mazda home page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.selectsCTA(java.lang.String)">
+                <span>Then selects "Build your CX-60" CTA</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.validateNavigatedBackToGradeStepOfCX()">
+                <span>And Validate navigated back to grade step of CX-60</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.clicksOnButton(java.lang.String)">
+                <span>Then Clicks on "NEXT" button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.validateBuildStepPage()">
+                <span>And Validate Build step page</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="34"><span class="badge log fail-bg mr-2">Fail</span>Build Tool 2 - Build step</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="StefDefs.BuildToolFlowsStepDefinition.userLandsOnBuildStepOfBuildTool()">
+                <span>Given User lands on Build Step of build tool</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at common.digital.Utility.UtlDigitalActions.updateFailureStatus(UtlDigitalActions.java:55)
+	at common.digital.pom.pages.buildPage.validateBuildPageCards(buildPage.java:46)
+	at StefDefs.BuildToolFlowsStepDefinition.userLandsOnBuildStepOfBuildTool(BuildToolFlowsStepDefinition.java:215)
+	at ✽.User lands on Build Step of build tool(file:///C:/Test%20Automation/automationtesting_11Jan/digital-automation/src/test/resources/feature/BuildToolFlows.feature:36)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userSelectsDifferentEngineOptions()">
+                <span>Then User selects different engine options</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.theEngineCardShouldBeSelected()">
+                <span>And The engine card should be selected</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userClicksOnHelpMeChoose()">
+                <span>Then User clicks on  Help me choose</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userIsDisplayedWithDiffernetEngineOptions()">
+                <span>And User is displayed with different engine options</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userSelectsDifferentExteriorColourOptions(java.lang.String)">
+                <span>Then User selects different exterior colour options and select "Soul Red Crystal Metallic"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userSelectsDifferentInteriorOptions(java.lang.String)">
+                <span>Then User selects different interior options and select "Black Leather"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userSelectsDiffernetWheelOptions(java.lang.String)">
+                <span>Then User selects different wheel options and select "CX-60 18 inch Graphite Alloy Wheel"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userSelectsDiffernetWheelOptions(java.lang.String)">
+                <span>Then User selects different wheel options and select "18-Inch Alloy"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.clicksOnEstimateRepaymentsCTAOnFooter()">
+                <span>Then Clicks on Estimate Repayments CTA on Footer</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.validateFinanceCalculatorOpenedAndRDPPriceShownWithOtherParameters()">
+                <span>And Validate Finance calculator opened and RDP price shown with other parameters</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.clicksOnFinanceCalculatorPopup(java.lang.String)">
+                <span>Then Clicks on "Save and close" finance calculator popup</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.clickingOnMazdaLogoToLandOnHomePage()">
+                <span>Then clicking on mazda logo to land on home page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.validateBuildAbandonmentPopupForBuildStep()">
+                <span>And Validate build abandonment popup for Build Step</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userSelectsCTA(java.lang.String)">
+                <span>Then User selects "save your build" CTA</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userIsPresentedWithABuildSaveForm()">
+                <span>And User is presented with a Build save form</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.clickingOnMazdaLogoToLandOnHomePage()">
+                <span>Then clicking on mazda logo to land on home page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userSelectsCTA(java.lang.String)">
+                <span>Then User selects "Continue your cx-60 build" CTA</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userLandsOnBuildStepOfBuildTool()">
+                <span>And User lands on Build Step of build tool</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.clickingOnMazdaLogoToLandOnHomePage()">
+                <span>Then clicking on mazda logo to land on home page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userSelectsCTA(java.lang.String)">
+                <span>Then User selects "continue build" CTA</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userStaysOnTheBuildStepWithTheSelectionsUnchanged()">
+                <span>And User stays on the build step with the selections unchanged</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.clicksOnButtonOnBuildPage(java.lang.String)">
+                <span>Then Clicks on "Continue" button on Build Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userIsNavigatedToThePersonalizationStep()">
+                <span>And User is navigated to the personalization step</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="62"><span class="badge log fail-bg mr-2">Fail</span>Build Tool 2 - Personalise step</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="StefDefs.BuildToolFlowsStepDefinition.userLandsOnPersonaliseStepOfBuildTool()">
+                <span>Given User lands on personalise step of build tool</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at common.digital.Utility.UtlDigitalActions.updateFailureStatus(UtlDigitalActions.java:55)
+	at common.digital.pom.pages.personalisePage.validatePersonalisePageCards(personalisePage.java:48)
+	at StefDefs.BuildToolFlowsStepDefinition.userLandsOnPersonaliseStepOfBuildTool(BuildToolFlowsStepDefinition.java:331)
+	at ✽.User lands on personalise step of build tool(file:///C:/Test%20Automation/automationtesting_11Jan/digital-automation/src/test/resources/feature/BuildToolFlows.feature:63)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userSelectsDifferentOptionPacksAvailable()">
+                <span>Then User selects different option packs available</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userSelectsDifferentAccessoryOptionsAvailable()">
+                <span>Then User selects different accessory options available</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.clicksOnEstimateRepaymentsCTAOnFooter()">
+                <span>Then Clicks on Estimate Repayments CTA on Footer</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.validateFinanceCalculatorOpenedAndRDPPriceShownWithOtherParameters()">
+                <span>And Validate Finance calculator opened and RDP price shown with other parameters</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.clicksOnFinanceCalculatorPopup(java.lang.String)">
+                <span>Then Clicks on "Save and close" finance calculator popup</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.clickingOnMazdaLogoToLandOnHomePage()">
+                <span>Then clicking on mazda logo to land on home page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.validateBuildAbandonmentPopupForPersonaliseStep()">
+                <span>And Validate build abandonment popup for Personalise Step</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userSelectsCTA(java.lang.String)">
+                <span>Then User selects "save your build" CTA</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userIsPresentedWithABuildSaveForm()">
+                <span>And User is presented with a Build save form</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.clickingOnMazdaLogoToLandOnHomePage()">
+                <span>Then clicking on mazda logo to land on home page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userSelectsCTA(java.lang.String)">
+                <span>Then User selects "Continue your cx-60 build" CTA</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userLandsOnPersonaliseStepOfBuildTool()">
+                <span>And User lands on personalise step of build tool</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.clickingOnMazdaLogoToLandOnHomePage()">
+                <span>Then clicking on mazda logo to land on home page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userSelectsCTA(java.lang.String)">
+                <span>Then User selects "continue build" CTA</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.clicksOnButton(java.lang.String)">
+                <span>Then Clicks on "NEXT" button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userIsNavigatedToTheMakeItYoursStep()">
+                <span>And User is navigated to the Make It Yours step</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="83"><span class="badge log fail-bg mr-2">Fail</span>Build Tool 2 - MIY step</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="StefDefs.BuildToolFlowsStepDefinition.userLandsOnTheMIYStepOfBuildTool()">
+                <span>Given User lands on the MIY step of build tool</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at common.digital.Utility.UtlDigitalActions.updateFailureStatus(UtlDigitalActions.java:55)
+	at common.digital.pom.pages.MIYPage.validateMIYPageTitle(MIYPage.java:49)
+	at StefDefs.BuildToolFlowsStepDefinition.userLandsOnTheMIYStepOfBuildTool(BuildToolFlowsStepDefinition.java:362)
+	at ✽.User lands on the MIY step of build tool(file:///C:/Test%20Automation/automationtesting_11Jan/digital-automation/src/test/resources/feature/BuildToolFlows.feature:83)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userIsPresentedWithDifferentCTAS()">
+                <span>Then User is presented with different CTA's</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.whenPriceIsSelectedNavigatesToBookATestDriveForm(java.lang.String)">
+                <span>And "BOOK YOUR TEST DRIVE" when price is selected - Navigates to Book a test drive form</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.whenFinanceIsSelectedNaviagtesToMakeAnEnqiryForm(java.lang.String)">
+                <span>And "ENQUIRY" when finance is selected - Navigates to Make an Enqiry form</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.isStandardForBothSelectionsNavigatesToBuildSaveForm(java.lang.String)">
+                <span>And "Save and Email your build" is standard for both selections - Navigates to Build Save form</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.finalPriceIsShownAsDefaultForTheConfigurationsSelectedInBuildJourney()">
+                <span>Then Final price is shown as default for the configurations selected in build journey</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.theAccordiansWhenExpandedDriveAwayPriceShouldBeAccurate()">
+                <span>And The accordians when expanded Drive Away Price should be accurate</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userSelectionsShouldBeShownUnderSection(java.lang.String)">
+                <span>Then User selections should be shown under "My Design" section</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.validateUserSelections()">
+                <span>And Validate User selections</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.user_should_be_able_to_edit_selections_made_using_the_edit_under_section(java.lang.String)">
+                <span>Then User should be able to edit selections made using the edit under "My Design" section</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.user_should_be_navigated_back_to_the_specific_fields_of_configuration_in_the_respective_steps()">
+                <span>And User should be navigated back to the specific fields of configuration, in the respective steps</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.my_design_section_should_be_updated_with_the_latest_selections()">
+                <span>And My design section should be updated with the latest selections</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userSelectsCTA(java.lang.String)">
+                <span>Then User selects "Save" CTA</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.user_should_be_presented_with_a_build_save_form()">
+                <span>And User should be presented with a build save form</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.clickingOnMazdaLogoToLandOnHomePage()">
+                <span>Then clicking on mazda logo to land on home page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StefDefs.BuildToolFlowsStepDefinition.userSelectsCTA(java.lang.String)">
+                <span>Then User selects "Exit Build" CTA</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>4</span>
+</span>
+<p class="name">@digital</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@digital</h4>
+<span status="fail" class='badge log badge-danger'>4 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>03:39:26 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Build Tool 2 - Grade step</a>
+<div class="">
+<span class="badge badge-default">Build Tool All Steps.Build Tool 2 - Grade step</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>03:39:30 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='34'>Build Tool 2 - Build step</a>
+<div class="">
+<span class="badge badge-default">Build Tool All Steps.Build Tool 2 - Build step</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>03:39:30 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='62'>Build Tool 2 - Personalise step</a>
+<div class="">
+<span class="badge badge-default">Build Tool All Steps.Build Tool 2 - Personalise step</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>03:39:30 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='83'>Build Tool 2 - MIY step</a>
+<div class="">
+<span class="badge badge-default">Build Tool All Steps.Build Tool 2 - MIY step</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>4</span>
+</span>
+<p class="name">java.lang.NullPointerException</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.NullPointerException</h4>
+<span status="fail" class='badge log badge-danger'>4 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>03:39:29 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='4'>Given User visits mazda home page</a>
+<div class="">
+<span class="badge badge-default">Build Tool All Steps.Build Tool 2 - Grade step.Given User visits mazda home page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>03:39:30 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='36'>Given User lands on Build Step of build tool</a>
+<div class="">
+<span class="badge badge-default">Build Tool All Steps.Build Tool 2 - Build step.Given User lands on Build Step of build tool</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>03:39:30 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='64'>Given User lands on personalise step of build tool</a>
+<div class="">
+<span class="badge badge-default">Build Tool All Steps.Build Tool 2 - Personalise step.Given User lands on personalise step of build tool</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>03:39:30 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='85'>Given User lands on the MIY step of build tool</a>
+<div class="">
+<span class="badge badge-default">Build Tool All Steps.Build Tool 2 - MIY step.Given User lands on the MIY step of build tool</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
